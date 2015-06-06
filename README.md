@@ -11,7 +11,7 @@ PHP
 ###仕様1: レシピを出力
 実行:
 ```
- $ php code/recipe.php
+ $ php recipe.php
  オムライス
 ```
 
@@ -23,7 +23,7 @@ recipe-data.txtファイルの追加
   
 実行:
 ```
- $ php code/recipe.php
+ $ php recipe.php recipe-data.txt
  オムライス
 
 ###仕様4: データファイルに3つのデータを保存できること
@@ -31,7 +31,7 @@ recipe-data.txtファイルの追加
   
 実行:
 ```
- $ php code/recipe.php
+ $ php recipe.php recipe-data.txt
 オムライス
 親子丼
 杏仁豆腐
@@ -42,8 +42,11 @@ recipe-data.txtファイルの追加
   
 実行:
 ```
- $ php code/recipe.php
+ $ php recipe.php recipe-data.txt
 1: オムライス
 2: 親子丼
 3: 杏仁豆腐
 ```
+
+###仕様6: IDを指定したレシピだけ出力すること
+IDのレシピだけを表示出来るように変更
