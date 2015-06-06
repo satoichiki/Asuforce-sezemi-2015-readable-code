@@ -25,17 +25,19 @@ fclose($file);
 ### この書き方の一言説明
 条件分岐の整理
 
-
 ##いちきメモ
 codeの実行ファイルが分かりづらいです。
 phpの実行が以下で実行されますが、明記されていないため最初に少し困ります。README.mdに記述しますとわかりやすいです。
 ```$ php code/recipe.php```
 
 最初に
+  
 $file = nullにしているのはなぜですか？
 
 ```if (($file = fopen ( "code/recipe-data.txt", "r" ))) {```
+
 ↓
+
 ```
 	$file = fopen ( "code/recipe-data.txt", "r" );
 
