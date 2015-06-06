@@ -1,7 +1,7 @@
-## Hello
+# Hello
 
-#Editer
-sublime
+##Editer
+Sublime Text3
 
-#Laguage
+##Laguage
 PHP
